@@ -1,18 +1,23 @@
 # Cloud Run LLM Classifier
 
-Este ejemplo muestra una aplicación sencilla en Python que se ejecuta en Google Cloud Run y utiliza un modelo pequeño de lenguaje (LLM) para clasificar una descripción dentro de una de las diez categorías del sector automoción.
+This example shows a simple Python application that runs on Google Cloud Run and
+uses a very small language model to classify a description into one of several
+predefined automotive categories.
 
-## Despliegue rápido
+The model is implemented locally with simple keyword matching so the service has
+no heavy dependencies and starts quickly.
 
-1. Construir la imagen Docker:
+## Quick Deploy
+
+1. Build the Docker image:
    ```sh
    docker build -t gcr.io/PROJECT_ID/cloud-run-llm .
    ```
-2. Publicar en Google Container Registry:
+2. Push to Google Container Registry:
    ```sh
    docker push gcr.io/PROJECT_ID/cloud-run-llm
    ```
-3. Desplegar en Cloud Run:
+3. Deploy to Cloud Run:
    ```sh
    gcloud run deploy cloud-run-llm \
      --image gcr.io/PROJECT_ID/cloud-run-llm \
@@ -21,7 +26,7 @@ Este ejemplo muestra una aplicación sencilla en Python que se ejecuta en Google
      --allow-unauthenticated
    ```
 
-La aplicación expone el endpoint `/classify` que recibe una descripción en formato JSON:
+The application exposes the `/classify` endpoint, which expects JSON input:
 
 ```json
 {
@@ -29,7 +34,7 @@ La aplicación expone el endpoint `/classify` que recibe una descripción en for
 }
 ```
 
-y devuelve la categoría estimada:
+and returns the estimated category:
 
 ```json
 {
@@ -37,10 +42,10 @@ y devuelve la categoría estimada:
 }
 ```
 
-## Pruebas locales
+## Local Testing
 
-Se incluyen tests en `tests/` con conversaciones ficticias para comprobar que
-el servicio clasifica correctamente. Para ejecutarlos:
+The `tests/` directory contains unit tests with example conversations. Run them
+using:
 
 ```sh
 pip install -r requirements.txt pytest

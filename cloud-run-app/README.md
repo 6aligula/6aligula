@@ -1,27 +1,27 @@
 # Experimental Cloud Run LLM Classifier
 
-This service is a lightweight proof of concept that demonstrates how to deploy a minimal language model microservice on **Google Cloud Run**. The classifier relies on simple keyword matching instead of a heavy pre‑trained model so that the container starts quickly and uses very few resources.
+This example shows a simple Python application that runs on Google Cloud Run and
+uses a very small language model to classify a description into one of several
+predefined automotive categories.
 
-> **Warning**: This project is experimental and should not be considered production ready. The classification accuracy is limited and the API design may change without notice.
+The model is implemented locally with simple keyword matching so the service has
+no heavy dependencies and starts quickly.
 
-## Project structure
+## Quick Deploy
 
-- `app.py` – Flask application exposing the `/classify` endpoint.
-- `classifier.py` – Extremely small classifier that maps text to predefined automotive categories using keywords.
-- `tests/` – Pytest suite covering basic request flows.
-- `Dockerfile` – Container definition used for Cloud Run deployments.
-
-## Running locally
-
-1. Install dependencies:
+1. Build the Docker image:
+2. 
    ```sh
    pip install -r requirements.txt
    ```
+y4l9gz-codex/colaboración-para-proyectos-en-la-nube-y-ai
 2. Start the service:
+
    ```sh
    python app.py
    ```
 3. Send a request:
+
    ```sh
    curl -X POST http://localhost:8080/classify \
        -H 'Content-Type: application/json' \

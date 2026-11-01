@@ -6,12 +6,23 @@ My background bridges **electronics engineering and software development**. I st
 
 I enjoy working where software engineering meets practical AI: making systems not just intelligent, but **fast, observable, maintainable, and dependable**.
 
-## 🧭 My background
+## 🧭 Professional journey
 
-- **Before November 2022 — Electronics:** Worked with power electronics in electric industrial vehicles, especially multi-brand electric forklifts. Developed hands-on experience reverse-engineering electronic circuits and control units to understand and troubleshoot their operation.
-- **Electronics technician:** Also worked assembling satellite electronics and as an electronics technician at HP in Sant Cugat, gaining experience with precision hardware and technical systems.
-- **November 2022 – February 2025 — Freelance software developer:** Transitioned professionally into software development through freelance work.
-- **February 2025 – present — Aivora:** Moved into conversational AI, real-time voice agents, backend engineering, and cloud-based distributed systems.
+My career began in electronics before evolving into software engineering and, later, conversational AI.
+
+- **2014–2016 · Electronics Technician — HP Inc. (Sant Cugat):** PCB design with Cadence, prototype manufacturing with LPKF milling machines, SMD soldering, microcontroller reballing, and electronics rework.
+- **2016–2017 · Electronics Technician — Tryo Aerospace:** Assembly of flight-model electronics using microscope-assisted SMD soldering, working to ESA/ECSS quality standards.
+- **2017–2022 · Electronics Technician — JZ Recielca:** Reverse engineering, fault diagnosis, and repair of multi-brand electric forklift control electronics, DC motor controllers, and frequency inverters.
+- **November 2022 – February 2025 · Freelance Software Developer:** Full-stack application development, backend APIs, databases, cloud deployment, and automation.
+- **2023–2024 · Programming & Cybersecurity Instructor:** Taught multiplatform application development, Python, React Native, backend frameworks, Docker, and ethical hacking, alongside freelance development.
+- **February 2025 – present · AI Engineer — Aivora:** Building and operating conversational AI systems for voice and messaging, including real-time speech pipelines, telephony integration, LLM orchestration, and cloud microservices.
+
+## 🎓 Education
+
+- **M.Sc. in Cybersecurity** — UNIR (2023)
+- **AI & Data Science studies** — UOC
+- **Multiplatform Application Development** — Ins Calamot (2022)
+- **Electronic Maintenance** — Ins Camps Blancs (2013)
 
 ## 🔭 What I work on
 
@@ -44,7 +55,7 @@ I spend a lot of time thinking about how to make AI systems behave more like rob
 
 ## 🌱 Beyond conversational AI
 
-My electronics background continues to shape how I approach software: understanding systems from the hardware up, diagnosing complex failures, and valuing practical engineering. I'm also interested in **IoT, embedded systems, cybersecurity, automation, and technology applied to agriculture**.
+My experience in PCB prototyping, aerospace electronics, and reverse engineering of industrial motor controllers continues to shape how I approach software: understanding systems from the hardware up, diagnosing complex failures, and valuing practical engineering. I'm also interested in **IoT, embedded systems, cybersecurity, automation, and technology applied to agriculture**.
 
 ---
 

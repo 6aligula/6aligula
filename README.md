@@ -1,69 +1,46 @@
-# Experimental Cloud Run LLM Classifier
+# Hi, I'm Vinicio 👋
 
-This example shows a simple Python application that runs on Google Cloud Run and
-uses a very small language model to classify a description into one of several
-predefined automotive categories.
+### Backend & AI Engineer | Real-time Voice AI · Distributed Systems · Cloud Architecture
 
-The model is implemented locally with simple keyword matching so the service has
-no heavy dependencies and starts quickly.
+I'm a software engineer with **10+ years of experience** building software across backend development, automation, systems integration, and AI. Today, I focus on **production-grade conversational AI** — especially real-time voice agents, reliable backend services, and the infrastructure that connects them.
 
-## Quick Deploy
+I enjoy working where software engineering meets practical AI: making systems not just intelligent, but **fast, observable, maintainable, and dependable**.
 
-1. Build the Docker image:
-2. 
-   ```sh
-   pip install -r requirements.txt
-   ```
-y4l9gz-codex/colaboración-para-proyectos-en-la-nube-y-ai
-2. Start the service:
+## 🔭 What I work on
 
-   ```sh
-   python app.py
-   ```
-3. Send a request:
+- **Real-time voice AI:** End-to-end speech pipelines connecting speech-to-text (STT), LLMs, text-to-speech (TTS), telephony, and conversational turn-taking.
+- **AI agents & orchestration:** Tool calling, structured data collection, routing, context management, fallbacks, and deterministic validation around probabilistic models.
+- **Backend & distributed systems:** Event-driven microservices, asynchronous queues, concurrency, webhooks, WebSockets, and streaming responses.
+- **Cloud & platform engineering:** Containerized services, CI/CD, infrastructure on Google Cloud, and production troubleshooting.
+- **Evaluation & reliability:** Latency optimization, observability, automated conversational testing, and recovery from failures.
 
-   ```sh
-   curl -X POST http://localhost:8080/classify \
-       -H 'Content-Type: application/json' \
-       -d '{"description": "Se ha roto el sistema electrico del coche"}'
-   ```
+## 🛠️ Technologies I work with
 
-## Running the test suite
+| Area | Technologies |
+| --- | --- |
+| Languages | Python, JavaScript, TypeScript, SQL |
+| Voice & conversational AI | Pipecat, Twilio, Vapi, LiveKit, Soniox, Deepgram, ElevenLabs |
+| AI engineering | OpenAI APIs, LangChain, LLM tool calling, RAG, model evaluation |
+| Backend & communication | REST APIs, WebSockets, Server-Sent Events, event-driven services |
+| Cloud & DevOps | Google Cloud Run, Cloud Functions, Cloud Build, Pub/Sub, Docker, GitHub Actions |
+| Data & infrastructure | PostgreSQL, Redis, Firestore, Cloud Storage, Linux |
 
-Execute the included tests to validate the behaviour of the classifier:
+## ⚙️ Engineering interests
 
-```sh
-pip install -r requirements.txt pytest
-pytest -q
-```
+I spend a lot of time thinking about how to make AI systems behave more like robust software:
 
-## Deploying to Cloud Run
+- Combining **LLMs with deterministic tools** for verification and safer execution.
+- Minimizing end-to-end latency in streaming voice conversations.
+- Designing resilient multi-provider pipelines with timeouts, fallbacks, and graceful shutdown.
+- Scaling distributed workloads without sacrificing simplicity or operational visibility.
+- Exploring local models, open-source agents, and the boundaries of practical AI deployment.
 
-Ensure the Google Cloud SDK is installed and authenticated. Replace `PROJECT_ID` and `REGION` with your values.
+## 🌱 Beyond conversational AI
 
-1. Build the image:
-   ```sh
-   docker build -t gcr.io/PROJECT_ID/cloud-run-llm .
-   ```
-2. Push to Container Registry:
-   ```sh
-   docker push gcr.io/PROJECT_ID/cloud-run-llm
-   ```
-3. Deploy:
-   ```sh
-   gcloud run deploy cloud-run-llm \
-       --image gcr.io/PROJECT_ID/cloud-run-llm \
-       --platform managed \
-       --region REGION \
-       --allow-unauthenticated
-   ```
+My interests also include **IoT, embedded systems, cybersecurity, automation, and technology applied to agriculture**. I like projects that connect software with the physical world.
 
-Once deployed, the service responds to `POST` requests on `/classify` with a JSON object containing the predicted category.
+---
 
-## Extending the classifier
+**My approach:** build useful things, measure how they perform, and keep improving the engineering behind them.
 
-`classifier.py` defines the list of `CATEGORIES` and the associated `KEYWORDS`. Adjust these mappings or replace the implementation with a more sophisticated model as needed. Keep in mind that the current approach is intentionally simple for easier testing and experimentation.
-
-## License
-
-This repository is provided for educational purposes. Use at your own risk.
+📍 Barcelona, Spain · Open to exchanging ideas about backend engineering, real-time AI, and distributed systems.

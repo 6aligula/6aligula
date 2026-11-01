@@ -9,7 +9,7 @@ I enjoy working where software engineering meets practical AI: making systems no
 ## 🧭 My background
 
 - **Before November 2022 — Electronics:** Worked with power electronics in electric industrial vehicles, especially multi-brand electric forklifts. Developed hands-on experience reverse-engineering electronic circuits and control units to understand and troubleshoot their operation.
-- **Electronics technician:** Also worked assembling satellite electronics and as an electronics technician in a hospital, gaining experience with precision hardware and technical systems.
+- **Electronics technician:** Also worked assembling satellite electronics and as an electronics technician at HP in Sant Cugat, gaining experience with precision hardware and technical systems.
 - **November 2022 – February 2025 — Freelance software developer:** Transitioned professionally into software development through freelance work.
 - **February 2025 – present — Aivora:** Moved into conversational AI, real-time voice agents, backend engineering, and cloud-based distributed systems.
 

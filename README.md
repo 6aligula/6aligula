@@ -2,9 +2,16 @@
 
 ### Backend & AI Engineer | Real-time Voice AI · Distributed Systems · Cloud Architecture
 
-I'm a software engineer with **10+ years of experience** building software across backend development, automation, systems integration, and AI. Today, I focus on **production-grade conversational AI** — especially real-time voice agents, reliable backend services, and the infrastructure that connects them.
+My background bridges **electronics engineering and software development**. I started developing software professionally as a **freelancer in November 2022**, continuing until **February 2025**. In **February 2025**, I joined **Aivora**, where I began specializing in **conversational AI and real-time voice systems**. Today, I focus on production-grade voice agents, reliable backend services, and the infrastructure that connects them.
 
 I enjoy working where software engineering meets practical AI: making systems not just intelligent, but **fast, observable, maintainable, and dependable**.
+
+## 🧭 My background
+
+- **Before November 2022 — Electronics:** Worked with power electronics in electric industrial vehicles, especially multi-brand electric forklifts. Developed hands-on experience reverse-engineering electronic circuits and control units to understand and troubleshoot their operation.
+- **Electronics technician:** Also worked assembling satellite electronics and as an electronics technician in a hospital, gaining experience with precision hardware and technical systems.
+- **November 2022 – February 2025 — Freelance software developer:** Transitioned professionally into software development through freelance work.
+- **February 2025 – present — Aivora:** Moved into conversational AI, real-time voice agents, backend engineering, and cloud-based distributed systems.
 
 ## 🔭 What I work on
 
@@ -37,7 +44,7 @@ I spend a lot of time thinking about how to make AI systems behave more like rob
 
 ## 🌱 Beyond conversational AI
 
-My interests also include **IoT, embedded systems, cybersecurity, automation, and technology applied to agriculture**. I like projects that connect software with the physical world.
+My electronics background continues to shape how I approach software: understanding systems from the hardware up, diagnosing complex failures, and valuing practical engineering. I'm also interested in **IoT, embedded systems, cybersecurity, automation, and technology applied to agriculture**.
 
 ---
 
